@@ -1,0 +1,2952 @@
+{
+  "code_items": [],
+  "edges": [],
+  "schema": 3,
+  "spec_units": [
+    {
+      "anchor": "root",
+      "content_hash": "sha256:743c727b2d0b41a9e6e38856da92042578215b4565124151cfbf85c55ba347a7",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1 — Decide Whether a Question Needs Research and When to Stop",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#root"
+    },
+    {
+      "anchor": "use-this-when",
+      "content_hash": "sha256:814520b3726675235280a629f369c842532fa067a860cd347d0b5cce509095c0",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:0 - Use This When",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#use-this-when"
+    },
+    {
+      "anchor": "working-terms",
+      "content_hash": "sha256:d6be362095ad4c096bb2cff8b6f20605e76845731a1188657a7daa5377de2dc4",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:0.1 - Working Terms",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#working-terms"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:7625c0183ea25dee162c5f466e8f64df625fcc23c0e0f14bdc0703f607209df6",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:1 - Problem Frame",
+      "line": 37,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:17adead4af8a12b30288e930a2529e545c3c9f747bb76c9f8ea8ba5e075aebe9",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:2 - Problem",
+      "line": 45,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:325cc3ba3a1bfdc98cdf54c3c6983ed98296039824be40b4306f352a94b792fb",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:3 - Forces",
+      "line": 53,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:87bd18d91725c7a0f7070d1476d041c7f1f341ee2a5e6814d1f7e44913640ea0",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:4 - Solution",
+      "line": 65,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:d97c9b27f773b3921ab3a36f92a480137ff28bfbd7f386f0b9f63d96ea60c968",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:4.1 - Pattern-Use Unfolding",
+      "line": 69,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#pattern-use-unfolding"
+    },
+    {
+      "anchor": "four-condition-research-membership-test",
+      "content_hash": "sha256:a554d8ad61c0c3255a3ad379b6aeeee64977a7b61645ff38b342df92fa98a568",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:4.2 - Four-Condition Research-Membership Test",
+      "line": 84,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#four-condition-research-membership-test"
+    },
+    {
+      "anchor": "answer-from-existing-sources-before-starting-a-study",
+      "content_hash": "sha256:f2b38c9dae49dfc4e1d3e69e7466f2f88c4e20e52046ef6bb40ece84fd07b8b5",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:4.3 - Answer from Existing Sources before Starting a Study",
+      "line": 95,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#answer-from-existing-sources-before-starting-a-study"
+    },
+    {
+      "anchor": "find-and-interpret-the-relevant-material",
+      "content_hash": "sha256:078cb4d673bb1115573191e5ea55ec8cc21a7a66677f5ddad8dca0b760283d0e",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:4.3.1 - Find and interpret the relevant material",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#find-and-interpret-the-relevant-material"
+    },
+    {
+      "anchor": "compare-alternatives-when-their-difference-matters",
+      "content_hash": "sha256:edab33f5355e2b0d7b120561da1ea84fdd6d536a16fa2435b87b8e7e33f5b172",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:4.3.2 - Compare alternatives when their difference matters",
+      "line": 108,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#compare-alternatives-when-their-difference-matters"
+    },
+    {
+      "anchor": "nearest-non-members-and-exact-returns",
+      "content_hash": "sha256:99a35864237a8c8b8d48022fac4dd2d15ebbc3067ff4a15dcbadcca08ad466b4",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:4.4 - Nearest Non-Members and Exact Returns",
+      "line": 118,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#nearest-non-members-and-exact-returns"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:2905449a1d5cdccdede7eab312d371d984685242b4858ba77c55bfe7915330ad",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:4.5 - Record the Result",
+      "line": 131,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#record-the-result"
+    },
+    {
+      "anchor": "frascati-criteria-mutated-for-this-boundary",
+      "content_hash": "sha256:997f03c2e95fd527ac13cf7b20ec4cda87908325b9b4b085ccc317ed2e1a6168",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:4.6 - Frascati Criteria Mutated for This Boundary",
+      "line": 163,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#frascati-criteria-mutated-for-this-boundary"
+    },
+    {
+      "anchor": "first-hour-qualification-card",
+      "content_hash": "sha256:8a790a7ff896be511596a89aa759c06a09e3bd2750a625034df2a2302ccc95f9",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:4.7 - First-Hour Qualification Card",
+      "line": 175,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#first-hour-qualification-card"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:f81cc0230c48b431114a4d88097e6117598e5e12c2179980c9ebba2796092666",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:4.8 - What Changes in Practice",
+      "line": 190,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:2c0aaf520e2e2aeb30974163eec686a5685f6e07d3422a4ded92b0587f0e680c",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:7 - Conformance Checklist",
+      "line": 194,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:47261e80a1169cddace2b16c522d0f6650e254f0b2f3fb6c2ceb92e931805dad",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:9 - Consequences",
+      "line": 221,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:9a17107fa48a7069b0acd568154d76fe70f3a9cebc437a7f9638f1b2bbe0be5e",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "RMP.1:12 - Relations",
+      "line": 229,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:5d2e7f192c8cb38774690b6bc320eda0854d57383a989a50b417abda818a8e85",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "Dependencies",
+      "line": 243,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:c3aad07f738b26600c5e0cf5dab9530543ffff1f265a5a7ff7cd5eaf8c0e9067",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "Dependencies (as published): receiving question and available sources; spec://ai.lev/fpf-spec/contract/F-1#root, spec://ai.lev/fpf-spec/contract/F-0-1#root and spec://ai.lev/fpf-spec/contract/A-10#root for source use; spec://ai.lev/fpf-spec/contract/E-8#root for SoTA comparison; applicable domain contributions @status:spec/done",
+      "line": 245,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:4cf0895ad9b3bbac45ffb31685838db2099cb4d6f85da378c4cf29523a4bf93b",
+      "doc_path": "contract/RMP-1",
+      "file": "vibevm/vibespecs/contract/RMP-1.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-mkt/contract/MKT-12#root, spec://ai.lev/fpf-eng-rmp/contract/RMP-2#root, spec://ai.lev/fpf-eng-rmp/contract/RMP-3#root, spec://ai.lev/fpf-eng-rmp/contract/RMP-4#root, spec://ai.lev/fpf-eng-rmp/contract/RMP-5#root @status:spec/done",
+      "line": 246,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-1#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:dc29f2bd30756f8f298d175584636e49885197cbfc0ce04d896e15ebacc1e2e1",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2 — Choose a Criticism-Bearing Research Design or Stop",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#root"
+    },
+    {
+      "anchor": "use-this-when",
+      "content_hash": "sha256:62081ca8176d1b079dbc43d43a99f3c3f811dba20134b56e6834c8f5f57f142b",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:0 - Use This When",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#use-this-when"
+    },
+    {
+      "anchor": "working-terms",
+      "content_hash": "sha256:ec0993f868dd4cad0e24299fa75e2e451b24e15b767b951339e539b6ece8c21a",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:0.1 - Working Terms",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#working-terms"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:8b94dcc398cc7b8016a0c7eeddb56a5d8b2a12e979c9c4520a140c198d112172",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:1 - Problem Frame",
+      "line": 38,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:97830073c7a674ae231586ac1918431a9cafc1a1498c9693e93311b84e8320fc",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:2 - Problem",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:6b921d8ce4a194572fae7727e3d7f817f0963ce003d97bac6d253e39fbcae815",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:3 - Forces",
+      "line": 54,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:9f3628534c213eafd16401e72def94ffafa73037278a00519782cb3b3be1e3ed",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:4 - Solution",
+      "line": 67,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#solution"
+    },
+    {
+      "anchor": "admit-the-design-question",
+      "content_hash": "sha256:8ab0fa04d9b5c424f612d3a541afc597f973b4be240eece5cc9c16fc37e6c323",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:4.1 - Admit the Design Question",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#admit-the-design-question"
+    },
+    {
+      "anchor": "test-the-evidence-sufficient-stop",
+      "content_hash": "sha256:47effc30b8f80c78c82ce95aacbfcab76ad97a91d2f0abf482a7397a2001eeec",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:4.2 - Test the Evidence-Sufficient Stop",
+      "line": 78,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#test-the-evidence-sufficient-stop"
+    },
+    {
+      "anchor": "expose-selection-changing-inputs",
+      "content_hash": "sha256:620620dbb940780e4d2250d7f71b612300815eec531413fbaa185e1419b9ec7d",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:4.3 - Expose Selection-Changing Inputs",
+      "line": 93,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#expose-selection-changing-inputs"
+    },
+    {
+      "anchor": "compose-serious-design-or-stop-options",
+      "content_hash": "sha256:acb8872b06d5ad43653feb0d137fa2eab9eeb7297d839d18c73516ccec385905",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:4.4 - Compose Serious Design-or-Stop Options",
+      "line": 115,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#compose-serious-design-or-stop-options"
+    },
+    {
+      "anchor": "preserve-design-family-differences",
+      "content_hash": "sha256:1336abac52d6a51f1afaffe862d057e67b3e681d13e50379f154eee2df5bc5a2",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:4.5 - Preserve Design-Family Differences",
+      "line": 134,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#preserve-design-family-differences"
+    },
+    {
+      "anchor": "compare-on-one-decision-bearing-canvas",
+      "content_hash": "sha256:743a9a473f75a4c78f79c3aaec1262401d94266f4e7237404d2aa4122ade62d9",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:4.6 - Compare on One Decision-Bearing Canvas",
+      "line": 148,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#compare-on-one-decision-bearing-canvas"
+    },
+    {
+      "anchor": "return-exactly-one-researchdesigndisposition",
+      "content_hash": "sha256:59463d57e59b6f64ad4a9db37a88f8f7c62cd8b3686a6eb105a536726f3bc6b2",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:4.7 - Return Exactly One ResearchDesignDisposition",
+      "line": 165,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#return-exactly-one-researchdesigndisposition"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:738b041ab5283113715bb5b36c853e67a35d9ca40c9605570d6a89550f4fe416",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:4.8 - What Changes in Practice",
+      "line": 184,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:b4cb32a5fddb6658beb15ccae7dfa4a1472c378f4f65cee8525b08c8de7afda5",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:7 - Conformance Checklist",
+      "line": 188,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:788f22f2e06faf35325609a649c4d78ec27548e0da81c7d905cf2c504779b2b0",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:9 - Consequences",
+      "line": 219,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:bf6881f2227d2f805119c2b4d1b06e7ad69cd0508923a63aa39439d9bc3289f5",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "RMP.2:12 - Relations",
+      "line": 227,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:69380602cfbe13eb0e73f15d6e96c2ee3891a3479a0ad4f4bc8a24c0ae908e85",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "Dependencies",
+      "line": 238,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:9cf6cbd657895624f6daf52b613c8fe39279395fc5cdde17c2ff941443736680",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-rmp/contract/RMP-1#root ResearchQuestionBrief or compatible direct input; qualified current frame; exact domain, measurement, access, ethics, safety and authority results @status:spec/done",
+      "line": 240,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:f7b4caa3cc75e60ab17b7b7bf86f81588f32eed207ab65a6be3d3aaed036ab0f",
+      "doc_path": "contract/RMP-2",
+      "file": "vibevm/vibespecs/contract/RMP-2.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-rmp/contract/RMP-3#root, spec://ai.lev/fpf-eng-rmp/contract/RMP-4#root, spec://ai.lev/fpf-eng-rmp/contract/RMP-5#root, spec://ai.lev/fpf-eng-rmp/contract/RMP-6#root @status:spec/done",
+      "line": 241,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-2#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:1beeb6bf67285dd0fa24a4b86070e46fbce56431ca09eaedec36585b3c268e15",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3 - Operationalize the Research Design without Replacing the Question",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:11cb053c0ec680c2532adea7fab468e05c11b8bc74e358b7bfc7d71c73aa102b",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:1 - Problem Frame",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:6864dda614d44ae980d8b83f3081ad03c931eda2c6aaa82fc4ccfea399794628",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:2 - Problem",
+      "line": 22,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:ccd9de3c9e3956121c063acf4614782bca758407ba4caec9b491e8612d8b9323",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:3 - Forces",
+      "line": 30,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:608c5f3a240712ccf0052153051f02f2d5410e59d4667f37bef1ec669ce8246d",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:4 - Solution",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#solution"
+    },
+    {
+      "anchor": "recover-the-question-and-the-selected-design",
+      "content_hash": "sha256:4bdd2fadda2ad97ae957b38cb73cf9b642b5eaf353784df7e7796cc543be8a63",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:4.1 - Recover the question and the selected design",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#recover-the-question-and-the-selected-design"
+    },
+    {
+      "anchor": "connect-the-question-to-particular-material-and-actions",
+      "content_hash": "sha256:0be1abbd3fe8630f211a563fcfc3f7de4b3dcebbf25d08c29d0d8a7a8fdd5f01",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:4.2 - Connect the question to particular material and actions",
+      "line": 60,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#connect-the-question-to-particular-material-and-actions"
+    },
+    {
+      "anchor": "state-the-intended-use-of-the-material-and-the-records-it-needs",
+      "content_hash": "sha256:9220765ed3d5caf1a3939aa6df60f06b1f58633e3b02be9c78836f75bc890743",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:4.3 - State the intended use of the material and the records it needs",
+      "line": 80,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#state-the-intended-use-of-the-material-and-the-records-it-needs"
+    },
+    {
+      "anchor": "preserve-useful-commitments-and-method-appropriate-flexibility",
+      "content_hash": "sha256:e6856f3ae42e3519dabe2ad4691d599a819fc150f83bd69ab3ef6d5f2a5b1cd3",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:4.4 - Preserve useful commitments and method-appropriate flexibility",
+      "line": 90,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#preserve-useful-commitments-and-method-appropriate-flexibility"
+    },
+    {
+      "anchor": "test-the-whole-arrangement-and-choose-the-exact-return",
+      "content_hash": "sha256:d58310a306081288efd72b562b7994748b0fcae3e18281c61a26901bf451e5a7",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:4.5 - Test the whole arrangement and choose the exact return",
+      "line": 109,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#test-the-whole-arrangement-and-choose-the-exact-return"
+    },
+    {
+      "anchor": "leave-a-usable-operational-result",
+      "content_hash": "sha256:5621f2c1278f8cee7992912c3c459369e5fc29516b54e8fdaf7ae903ff54c851",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:4.6 - Leave a usable operational result",
+      "line": 125,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#leave-a-usable-operational-result"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:f89c056af4cae6ddd55515972187995c2ad7051fea60a19710131cd93f4458b9",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:7 - Conformance Checklist",
+      "line": 139,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:0f03a78d03cd3149179cc833e56e90e79763f93f3a767ccaf870df37cc987fb8",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:9 - Consequences",
+      "line": 154,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:b39aab3938638cbd4c6bfd1687c0bf1db09a290ccfb52bf0c3796dd9650771d0",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "RMP.3:12 - Relations",
+      "line": 160,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:b6ebf96cf362bd180b2a13e5eeec083919a82c1decf520f861c72fee96181ec2",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "Dependencies",
+      "line": 170,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:95b593f1478a8abbb3131188fe8b64523ee2412a70a2118cab2ad26eb4feaf5a",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "Dependencies (as published): compatible spec://ai.lev/fpf-eng-rmp/contract/RMP-1#root/spec://ai.lev/fpf-eng-rmp/contract/RMP-2#root or supplied brief/design; qualified domain and practical-owner results; spec://ai.lev/fpf-eng-rmp/contract/RMP-4#root for actual trace @status:spec/done",
+      "line": 172,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:f9f048109d222a509d0c546c5bf2c20375ee840e05a24feac01528b366dbb59f",
+      "doc_path": "contract/RMP-3",
+      "file": "vibevm/vibespecs/contract/RMP-3.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-rmp/contract/RMP-4#root, spec://ai.lev/fpf-eng-rmp/contract/RMP-5#root, spec://ai.lev/fpf-eng-rmp/contract/RMP-6#root @status:spec/done",
+      "line": 173,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-3#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:49c5a7650a6c3b7e2d04e8b392c202df1cac982c9753b3f88cfa43475ff45b1e",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4 - Preserve a Criticism-Ready Research Trace",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:ffe9b23cf465007e1d3166f71702073b6ae8344c4ee7ab74e10ba6a5bff6bb17",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:1 - Problem Frame",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:f2da34c90c3528b61b0b39cb162119bb5c757c01f57d4605ed18044ec7c58ff3",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:2 - Problem",
+      "line": 24,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:bca67dfbec10f37eba75ffd8d4d619b1b7e0db58a219dd8f030db4e904210968",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:3 - Forces",
+      "line": 32,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:023ee024e64b2fcabd8a32d4745e5a78f36e95d211686e25208ff6a72744fc90",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:4 - Solution",
+      "line": 44,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#solution"
+    },
+    {
+      "anchor": "name-the-examination-and-choose-the-entry",
+      "content_hash": "sha256:37a3cd1c8c872fc4f4943df982ac1a6b5c77b4bd470901736460bdcf707908d4",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:4.1 - Name the examination and choose the entry",
+      "line": 48,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#name-the-examination-and-choose-the-entry"
+    },
+    {
+      "anchor": "preserve-the-smallest-material-whose-loss-would-matter",
+      "content_hash": "sha256:43401d2f7d449cbe54596a491109b1d2ced38e828c501cca9688a096f5ee5a81",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:4.2 - Preserve the smallest material whose loss would matter",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#preserve-the-smallest-material-whose-loss-would-matter"
+    },
+    {
+      "anchor": "connect-actual-conduct-transformations-and-uses",
+      "content_hash": "sha256:1e46d9b32019f0bcbaf55c83eaf4d90a8a856538397e450f95439a407f898f0f",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:4.3 - Connect actual conduct, transformations and uses",
+      "line": 84,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#connect-actual-conduct-transformations-and-uses"
+    },
+    {
+      "anchor": "explain-consequential-changes-and-contributions",
+      "content_hash": "sha256:39c57f00d9ebc02f488362f9ddc93540ce8e5439289cabc542fcc9fae2ce6375",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:4.4 - Explain consequential changes and contributions",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#explain-consequential-changes-and-contributions"
+    },
+    {
+      "anchor": "determine-actual-access-and-the-consequences-of-loss",
+      "content_hash": "sha256:945d732c0373126560d15868578f2c4793a9eb08b4f4ed5d1a85db160eb54d55",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:4.5 - Determine actual access and the consequences of loss",
+      "line": 120,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#determine-actual-access-and-the-consequences-of-loss"
+    },
+    {
+      "anchor": "return-the-trace-with-a-truthful-receiving-scope",
+      "content_hash": "sha256:e329ded28546d41d082517aafea8cb55fae0312c4e6a67e6820d366ab2df0520",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:4.6 - Return the trace with a truthful receiving scope",
+      "line": 136,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#return-the-trace-with-a-truthful-receiving-scope"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:a27cdf10309060054ed35766ffdfdf22fe80edc9e30aa942f0cdfaaf1507168c",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:7 - Conformance Checklist",
+      "line": 152,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:6b36da47b07e0d05295cc2f8676d0704fe83286dc08a75422522f63a02983118",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:9 - Consequences",
+      "line": 168,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:5911078d252a99d020e5d0601dce23a50e94e01805943969780aed402186b6d4",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "RMP.4:12 - Relations",
+      "line": 174,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:24f9bf33c939d2a2474b9d559353c162146979d92da095b12c4ce6d6c58c7a2a",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "Dependencies",
+      "line": 185,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:32cd6bfd7b7fea3986a3ea6ba27a5747ec6ed19a6dbc09eadfaec4bb24cea244",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "Dependencies (as published): ongoing or inherited inquiry and receiving examination; surviving plans/records; spec://ai.lev/fpf-eng-rmp/contract/RMP-1#root/spec://ai.lev/fpf-eng-rmp/contract/RMP-2#root returns and spec://ai.lev/fpf-eng-rmp/contract/RMP-3#root intentions when supplied; FPF spec://ai.lev/fpf-spec/contract/A-10#root and spec://ai.lev/fpf-spec/contract/C-16#root @status:spec/done",
+      "line": 187,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:8799e408899fe875da717ef65a1f39c56a12a2d69be0f5db9ddbde3b1fdfdb40",
+      "doc_path": "contract/RMP-4",
+      "file": "vibevm/vibespecs/contract/RMP-4.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-rmp/contract/RMP-3#root, spec://ai.lev/fpf-eng-rmp/contract/RMP-5#root, spec://ai.lev/fpf-eng-rmp/contract/RMP-6#root @status:spec/done",
+      "line": 188,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-4#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:d657ae850358e5774af4d8717f72efc61deddd2e60e7e1778470ef14c2541c62",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5 - Analyze and Criticize the Research Claim under Its Method",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:0e9e4a75f3053ab4434d711463f2312025e4ede61c676e700abc79e96ea0287d",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:1 - Problem Frame",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:3fe0fb4135180146818ac7f91d10712ef573a6ccbdf2ed72d79d4b6ca56fab31",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:b40d3a5bcf40a905dfeae72576e096fe6aeb48f6d7591158b1fb064c11d9421a",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:042f79bb304d0f55abb31fcb7c21069821f8247847486fb8f665bddd5de6f4c6",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:4 - Solution",
+      "line": 41,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#solution"
+    },
+    {
+      "anchor": "recover-the-claim-and-one-consequential-connection",
+      "content_hash": "sha256:8f5f2376d332bc1aeac90ddbe7523b14e63784eccb3d8404c90c2feb2a4eaf8d",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:4.1 - Recover the claim and one consequential connection",
+      "line": 45,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#recover-the-claim-and-one-consequential-connection"
+    },
+    {
+      "anchor": "use-the-analysis-that-fits-the-question",
+      "content_hash": "sha256:30105675743b03cbce6f4e8d98ae4e37bc30d5dc77c00619aae1fdcaea752024",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:4.2 - Use the analysis that fits the question",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#use-the-analysis-that-fits-the-question"
+    },
+    {
+      "anchor": "criticize-the-consequential-inference",
+      "content_hash": "sha256:7d71a77ccbf468d69c62a4729f1d1b089e9600c2670b5f56591add2da76616f9",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:4.3 - Criticize the consequential inference",
+      "line": 76,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#criticize-the-consequential-inference"
+    },
+    {
+      "anchor": "state-the-answer-the-examination-supports",
+      "content_hash": "sha256:cde52c5b5b058adfdf776c2915547b87aa734848415e0c9c90694ef3a318de79",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:4.4 - State the answer the examination supports",
+      "line": 91,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#state-the-answer-the-examination-supports"
+    },
+    {
+      "anchor": "retain-the-account-needed-for-criticism-and-use",
+      "content_hash": "sha256:246cde5b8f67957fc203198ee63af82343bdd3c5e0f70364b814f56bcba1528a",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:4.5 - Retain the account needed for criticism and use",
+      "line": 106,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#retain-the-account-needed-for-criticism-and-use"
+    },
+    {
+      "anchor": "finish-or-return-the-specific-missing-premise",
+      "content_hash": "sha256:47b33f8a9ea4cddbc1fc79e6bfb80c512c792615111371a202a0f2b31438ac9c",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:4.6 - Finish or return the specific missing premise",
+      "line": 114,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#finish-or-return-the-specific-missing-premise"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:99398c1fba94789f30409e8bcfd2ee337beef85893d423df12d8113a3db26ff2",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:4.7 - What changes in practice",
+      "line": 128,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:14efc30daa0276061d61c672fbbe43c012cec36e63ad8216c35adc4d92c66f5a",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:7 - Conformance Checklist",
+      "line": 132,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:112a15a8ac2f5997f588b6d14ea541a17e849f49ab9f5a283df87b9737fec153",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:9 - Consequences",
+      "line": 149,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:ebcc6a866439545974f33c85227dbffb0bbf1c63602f88c940af754d05ff034a",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "RMP.5:12 - Relations",
+      "line": 155,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:55ec6f8daaa6c42da220927048eac340e962e06f860057f9dcad4a5920cc4eb8",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "Dependencies",
+      "line": 167,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:d8517acf7303a205f0d953bc6f7d1f2f4beeab0f4bb7945eb670a0aef237978b",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "Dependencies (as published): supplied material, analysis, claim and receiving use; spec://ai.lev/fpf-eng-rmp/contract/RMP-3#root intentions and spec://ai.lev/fpf-eng-rmp/contract/RMP-4#root actual trace when relevant; exact spec://ai.lev/fpf-eng-rmp/contract/RMP-1#root/spec://ai.lev/fpf-eng-rmp/contract/RMP-2#root returns; conditional spec://ai.lev/fpf-eng-rmp/contract/RMP-6#root @status:spec/done",
+      "line": 169,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:dce8e9cc5afe7abf9f15f45b57020709a6c7080980787c6b691b4695076c5fda",
+      "doc_path": "contract/RMP-5",
+      "file": "vibevm/vibespecs/contract/RMP-5.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-rmp/contract/RMP-6#root @status:spec/done",
+      "line": 170,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-5#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:4f08dd484bdbeefe6d9de2a4b2252713e04330d3524bb6205403a2f2454cf1d1",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6 - Choose a Credibility Test That Bears on the Research Claim, or Answer without New Testing",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:ab6e5a2e0befa3ee3a180e5b2e93480057faa99b96fc9fac3c426189a26d5327",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:1 - Problem Frame",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:f2c8a4d4eca15ad0b4a94c292122b769e1338a7ce8210a70f4c5f013758c6d97",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:e60cb377408e2bbe579240bc57e7a15abf0e4d6dca1b7e63b1da6e5ff2d9ff0d",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:ee274112f579965350344371452a47e88276f80c50e470eaba316e65ebc73325",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:4 - Solution",
+      "line": 41,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#solution"
+    },
+    {
+      "anchor": "name-what-could-fail-and-what-would-change",
+      "content_hash": "sha256:d01690d7f48ad4eff8d4da4d26646c61bb3601b811a5190adaba0a1b3e51e67a",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:4.1 - Name what could fail and what would change",
+      "line": 45,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#name-what-could-fail-and-what-would-change"
+    },
+    {
+      "anchor": "reuse-the-examination-that-already-answers",
+      "content_hash": "sha256:672756fef880e8b659368c0191ba5d7df2a92de20544ba8345f6973a3abae302",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:4.2 - Reuse the examination that already answers",
+      "line": 62,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#reuse-the-examination-that-already-answers"
+    },
+    {
+      "anchor": "match-the-credibility-move-to-the-threat",
+      "content_hash": "sha256:9f823bd529760529592df95551d064318e7afe4240619bceb0a387a3242a3050",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:4.3 - Match the credibility move to the threat",
+      "line": 70,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#match-the-credibility-move-to-the-threat"
+    },
+    {
+      "anchor": "compare-contribution-with-the-whole-obtainable-burden",
+      "content_hash": "sha256:b55d50e62c8f16df1b155436478febbd30a108fdad2529f588b0f3006639e449",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:4.4 - Compare contribution with the whole obtainable burden",
+      "line": 85,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#compare-contribution-with-the-whole-obtainable-burden"
+    },
+    {
+      "anchor": "return-the-current-decision-and-specify-only-selected-work",
+      "content_hash": "sha256:5d63561873244f86a4495c08b95b9e6f603024a9e95c64390d4239c61a4e03e3",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:4.5 - Return the current decision and specify only selected work",
+      "line": 101,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#return-the-current-decision-and-specify-only-selected-work"
+    },
+    {
+      "anchor": "interpret-an-actual-return-without-changing-its-kind",
+      "content_hash": "sha256:0882cd03daa84cc27cf12875b3d098513eea620e77ae3cdf057e99f1bdbda883",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:4.6 - Interpret an actual return without changing its kind",
+      "line": 118,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#interpret-an-actual-return-without-changing-its-kind"
+    },
+    {
+      "anchor": "when-a-protective-requirement-itself-is-disputed",
+      "content_hash": "sha256:2909dd5cd87e8c4dda2795ad372d654f46c1958240fca899ef4f8f3cc6ae5428",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:4.7 - When a protective requirement itself is disputed",
+      "line": 133,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#when-a-protective-requirement-itself-is-disputed"
+    },
+    {
+      "anchor": "preserve-a-useful-answer-for-its-receiver",
+      "content_hash": "sha256:63e6f6e122b1c513737182252928bde089b43c3151db597877348030d9e116a5",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:4.8 - Preserve a useful answer for its receiver",
+      "line": 141,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#preserve-a-useful-answer-for-its-receiver"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:5016d337be3135fb323a258a3e631ae8807b58f4a8334ebaff80c0bc98ada357",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:7 - Conformance Checklist",
+      "line": 147,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:8d88d20cc7783fcd9734d2f661e8a71a5a143eb39b2c149722cc39614e56b50a",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:9 - Consequences",
+      "line": 165,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:e1e23f5bb09bc2c3164f3cd4c9442c0c7eb8b953331310e9674f09bed99fda28",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "RMP.6:12 - Relations",
+      "line": 171,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:51428010bbecd4250ff950c98d6339fb4b04983596729bf3819c29a85b30885d",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "Dependencies",
+      "line": 183,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:a0f4622f09751f7d1374279646a9cf1117d0590fb92e373b81e2d3434218af5a",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "Dependencies (as published): bounded claim, basis, use and threat from spec://ai.lev/fpf-eng-rmp/contract/RMP-5#root or direct input; qualified Methods, criteria and practical owners; conditional spec://ai.lev/fpf-eng-rmp/contract/RMP-2#root/spec://ai.lev/fpf-eng-rmp/contract/RMP-3#root/spec://ai.lev/fpf-eng-rmp/contract/RMP-4#root @status:spec/done",
+      "line": 185,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:fa9630bd1563dc682bb3dfdda81974efcbc9e7b50aa6bada3c732ac376be934f",
+      "doc_path": "contract/RMP-6",
+      "file": "vibevm/vibespecs/contract/RMP-6.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-rmp/contract/RMP-5#root @status:spec/done",
+      "line": 186,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-6#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:49270b7ca7188e3a17eab8e22953d609d2771870a7a40e433a9a391241e287ed",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7 - Synthesize a Research Evidence Corpus",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:18bdabc876d495ed8d3ad8a01995f293a2e0b5f9014a63b583e3e3d0583aa883",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7:1 - Problem Frame",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:68318a38d2a404c6eaf5535c98c731b243062b3601a1e239a36542f643568d4b",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:c791c4cacf244f1d14d73b78b52a8ae904517b1cb2e31e71d76db93de87ba10d",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:67da9dea0cf83e85869c071d5ea439a19fc6282885e8a0292d4753af7947fc60",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7:4 - Solution",
+      "line": 40,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#solution"
+    },
+    {
+      "anchor": "state-the-question-and-test-the-supplied-answer",
+      "content_hash": "sha256:0f4b86f4192b10a27cf84dbb2eb76b370cd5b02fa19c634bd9c3acf64382c87f",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7:4.1 - State the question and test the supplied answer",
+      "line": 44,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#state-the-question-and-test-the-supplied-answer"
+    },
+    {
+      "anchor": "recover-distinct-contributions-before-counting-support",
+      "content_hash": "sha256:b0791b8a53553c496286caad8c10a4ea61fa08a9f6920147dffa08ca08820af5",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7:4.2 - Recover distinct contributions before counting support",
+      "line": 54,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#recover-distinct-contributions-before-counting-support"
+    },
+    {
+      "anchor": "appraise-support-for-the-proposed-findings",
+      "content_hash": "sha256:2f558fa54f4a5ed0749549c42d85c21bcb10e2b49499b4a212eb1af43dda60bc",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7:4.3 - Appraise support for the proposed findings",
+      "line": 68,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#appraise-support-for-the-proposed-findings"
+    },
+    {
+      "anchor": "perform-the-synthesis-the-question-permits",
+      "content_hash": "sha256:1397a570db10c5636309c71d23e4b5a1736a40a5de378508126a6063df31abe8",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7:4.4 - Perform the synthesis the question permits",
+      "line": 78,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#perform-the-synthesis-the-question-permits"
+    },
+    {
+      "anchor": "return-the-useful-corpus-answer",
+      "content_hash": "sha256:2568d5e7e39a5f674597913978d9c7d294bd4ee3386076390e938e03e430e6cb",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7:4.5 - Return the useful corpus answer",
+      "line": 97,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#return-the-useful-corpus-answer"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:3a9a9beb815f81b639b5b00beb71e6ce1f25a3f140832c6587d2554afd6170c7",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7:7 - Conformance Checklist",
+      "line": 107,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:4625410f2b9520e7eb174a63e834b8a03c5ada9c8982ff818aa001e70dbf46be",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7:9 - Consequences",
+      "line": 120,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:29f6ea16c31199b8c21753f608436a0a9e08d33bacd4484397bc6d6d1ae2adea",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "RMP.7:12 - Relations",
+      "line": 126,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:7ec9c67f38453dc7dd4cd18038e177d7fe4a132bb052895efa7d4401a588ec46",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "Dependencies",
+      "line": 135,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:d02d7a17d60b9b44ea284b31f9d95baed39bf3a6f895be2b40e8c38afd07955f",
+      "doc_path": "contract/RMP-7",
+      "file": "vibevm/vibespecs/contract/RMP-7.md",
+      "heading": "Dependencies (as published): compatible supplied question, synthesis design, operations and actual trace; conditional RMP.1-RMP.6 returns; spec://ai.lev/fpf-eng-rmp/contract/RMP-8#root when wider revision or receiving reliance needs it @status:spec/done",
+      "line": 137,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-7#DEPENDS-ON"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:f7dfae5ae0ecab97136e3fc04cd9820f2f46d672ed61ed2e10eac1706e910a0f",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8 - Use Research Results to Retain or Revise an Episteme's Claims and Return Bounded Evidence",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:560942875173f2eef6c63b06e86714f23acb92443727833bf4979c30a5acf435",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:1 - Problem Frame",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:1d56664edbae3a71cd14c8a247973488cee0ace1fb26fa13b67a090c4b6b3217",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:2 - Problem",
+      "line": 22,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:1c69c7ce5c6a437bab70e04f603d03aa19e9733c2743dcb1d6114c40c2c9fb1e",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:3 - Forces",
+      "line": 30,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:cc8d5ef6aef9af789671f9be5569185af8e6f9eed3fa4395caba72fc56e24268",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:4 - Solution",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#solution"
+    },
+    {
+      "anchor": "locate-the-assertion-and-its-receiving-question",
+      "content_hash": "sha256:abbe0cc1f4f82e22dde99228d6b181a4e9ff5e412801d26f364a8c9774c1e23b",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:4.1 - Locate the assertion and its receiving question",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#locate-the-assertion-and-its-receiving-question"
+    },
+    {
+      "anchor": "state-the-warranted-retention-or-change",
+      "content_hash": "sha256:b60745283a09abc89718ac8b2b64706efb1d8b44c17d5a5c0d4542bbba82291d",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:4.2 - State the warranted retention or change",
+      "line": 58,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#state-the-warranted-retention-or-change"
+    },
+    {
+      "anchor": "reconcile-the-affected-account",
+      "content_hash": "sha256:b733fab37ec768c8fee6edf21b7decf9f380ed0bc44cde6c162ce6fe4d9ab707",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:4.3 - Reconcile the affected account",
+      "line": 76,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#reconcile-the-affected-account"
+    },
+    {
+      "anchor": "return-evidence-to-the-actual-use",
+      "content_hash": "sha256:7bdc8918434cf1cbd47a8cecd3c4c880f5770ef348d391ae3e29258732c9bfb6",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:4.4 - Return evidence to the actual use",
+      "line": 88,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#return-evidence-to-the-actual-use"
+    },
+    {
+      "anchor": "make-a-research-method-contribution-recoverable-across",
+      "content_hash": "sha256:7bfa61e21cf27a54d23b2da1c568472b0e425e2aca6a26b17743bf9e11013847",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:4.4.1 - Make a research Method contribution recoverable across publication forms",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#make-a-research-method-contribution-recoverable-across"
+    },
+    {
+      "anchor": "finish-the-answer-and-select-further-inquiry-only-when-warranted",
+      "content_hash": "sha256:20b909d6a6387199a10ff376af79dc2d277058779786b0a793829a451316bf2b",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:4.5 - Finish the answer and select further inquiry only when warranted",
+      "line": 124,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#finish-the-answer-and-select-further-inquiry-only-when-warranted"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:4e3eb6801e3649e0fb317ea39bad61f4e7f5e7584d5b839e2576ac0e02ef8c5c",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:7 - Conformance Checklist",
+      "line": 134,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:a55f67c814311a9780a671f9826cb9599d0aa3681e6a8f5c86ffacbd15e547db",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:9 - Consequences",
+      "line": 148,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:977c1bfe4526a44180b550f1b3d4308286e8a327e6753cb7b734368cf2de8b51",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "RMP.8:12 - Relations",
+      "line": 154,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:34632137e3ff3f05baed6a988ce3e53973a01285bf88c664a6d1ade5b7590468",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "Dependencies",
+      "line": 164,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:0bba3a1300d866dccb89b466125891094b7ebe830a7a71d4f83d6bec3a9cf21e",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "Dependencies (as published): actual analysis, criticism or synthesis from RMP.5-RMP.7 or direct input; FPF episteme and affected-use relations; receiving criteria and authority @status:spec/done",
+      "line": 166,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:e604b3288c9202db1f8fc2797bb2bc3ee84894df29df88db90df38602f342a27",
+      "doc_path": "contract/RMP-8",
+      "file": "vibevm/vibespecs/contract/RMP-8.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-rmp/contract/RMP-7#root @status:spec/done",
+      "line": 167,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-8#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:5e25335051c150967371d04e408ecde8cdb618a6f46dae5b0ea8ed2881d66188",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9 — Decide Whether and How to Improve Research Methods and Practice",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#root"
+    },
+    {
+      "anchor": "use-this-when",
+      "content_hash": "sha256:6027173e5d588de86178a3df3e3aae3141c6e6c029e3747c8ba4f720ba01f653",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:0 - Use This When",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#use-this-when"
+    },
+    {
+      "anchor": "working-terms",
+      "content_hash": "sha256:ac8c8c91d3339774a03bdaf8a157290de7f9cc25fe75fbe4816f200f806b330c",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:0.1 - Working Terms",
+      "line": 19,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#working-terms"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:ed7bdcf9a1fc1f7d33d852c583b83a7a3db3c797788d8b5223138a43dbd31235",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:1 - Problem Frame",
+      "line": 30,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:a02819cedfa9a7f8e5721605c9dbc82d29a52bf86c7cfe3e1e4663b28ecf714f",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:2 - Problem",
+      "line": 38,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:f3a01fb90fc8a1f9469c3e3143aad36367f9e25b8b1ba45947ab3c7e9d9b08b3",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:3 - Forces",
+      "line": 44,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:aab93e9629e6b9630382122143846c883ef4eeec3e8cb1476dfbe106a462b0c7",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:4 - Solution",
+      "line": 54,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#solution"
+    },
+    {
+      "anchor": "locate-the-question-and-try-the-supported-present-answer",
+      "content_hash": "sha256:f224279f6ccbb55fbf2c129da260f2c20f6e2a8220bb9ffd56f7faff27782e65",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:4.1 - Locate the question and try the supported present answer",
+      "line": 56,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#locate-the-question-and-try-the-supported-present-answer"
+    },
+    {
+      "anchor": "compare-alternatives-for-the-same-research-use",
+      "content_hash": "sha256:357c8ceddca26a05a2db47936886c818bfddf88b33ffce30666e4681f34992b7",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:4.2 - Compare alternatives for the same research use",
+      "line": 66,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#compare-alternatives-for-the-same-research-use"
+    },
+    {
+      "anchor": "decide-whether-further-evidence-is-worth-obtaining",
+      "content_hash": "sha256:b391a291c31fd6d7a043909a8234928e2a3f02c2cb5624845a76c7a89680df02",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:4.3 - Decide whether further evidence is worth obtaining",
+      "line": 76,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#decide-whether-further-evidence-is-worth-obtaining"
+    },
+    {
+      "anchor": "retain-or-introduce-the-supported-change",
+      "content_hash": "sha256:880bf1b97ed4ca70f1340a922c187c4f2fdd349c57fa7c8fe6698c5187ab6a8e",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:4.4 - Retain or introduce the supported change",
+      "line": 94,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#retain-or-introduce-the-supported-change"
+    },
+    {
+      "anchor": "return-the-actual-consequence-and-finish",
+      "content_hash": "sha256:7f12bbb0f9cd8305fcc8e5b0db88324c7deddd0cd03f9f265e64c31dd025c6a8",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:4.5 - Return the actual consequence and finish",
+      "line": 104,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#return-the-actual-consequence-and-finish"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:04152c84411a99135020a029a558bbe089361e7410017c141925d60edd19d760",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:7 - Conformance Checklist",
+      "line": 114,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:7a4be17df0b0a3fe6f367bab68cafac4d183db53b455888e57019b326328a6a8",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:9 - Consequences",
+      "line": 126,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:4d6945c9a2787366c94ebdda5efa2f227b6bf9aa18a8b0e024548fea8ab9d13b",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "RMP.9:12 - Relations",
+      "line": 134,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:179df345ffacfcf1aee8a8e806a4dff7838105ba33a1b633692180bf9148f6bf",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "Dependencies",
+      "line": 146,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:b1a608e0ca88cfabf56c8518c0066c153a298bbaf96a76dacc243937f8acefce",
+      "doc_path": "contract/RMP-9",
+      "file": "vibevm/vibespecs/contract/RMP-9.md",
+      "heading": "Dependencies (as published): actual Method difficulty or changed research use; relevant Method Engineering and field criteria; qualified existing evidence; only affected RMP.1-RMP.8 returns @status:spec/done",
+      "line": 148,
+      "uri": "spec://ai.lev/fpf-eng-rmp/contract/RMP-9#DEPENDS-ON"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:9a98344887b10817a4a0dfdc6f8e95a52a0585d7b8d94cad75166d3ea27d8055",
+      "doc_path": "pub/ABOUT",
+      "file": "vibevm/vibespecs/pub/ABOUT.md",
+      "heading": "Research Method Practice Principles Framework",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/ABOUT#root"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:8f9e5d60f83dfea8dfb05346dcb8e29d7b3dd3b261307eea46766bb439de82ca",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "Preface",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#root"
+    },
+    {
+      "anchor": "preface-1",
+      "content_hash": "sha256:1903d19e66ca43531b80d013331455a2b1287e783b63590ea3b2a5f068c61f27",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:1 - The practical question behind research and engineering",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-1"
+    },
+    {
+      "anchor": "preface-2",
+      "content_hash": "sha256:fcb395904f1d65dfb393cc40ef7b39fc4b9703ae908553856a3f698efcf6cc0f",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:2 - Forces that shape the first result",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-2"
+    },
+    {
+      "anchor": "preface-3",
+      "content_hash": "sha256:997eba87d3260c5690921ea2931e3bc4701e9f45be86cb59c72cb15f904c8447",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:3 - Research membership is not institutional status",
+      "line": 36,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-3"
+    },
+    {
+      "anchor": "preface-4",
+      "content_hash": "sha256:967648247f2b25f1260f72bc00b5eaaa54f02a5c2636e072d343c5a3581f99db",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:4 - Question, frame, design, Work, result, and decision remain distinct",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-4"
+    },
+    {
+      "anchor": "preface-5",
+      "content_hash": "sha256:4b43b51cd827fe4ff4259175a54f2b5881e14e9c534a3a062a18cdddbc08ec39",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:5 - Criticism comes before method prestige",
+      "line": 50,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-5"
+    },
+    {
+      "anchor": "preface-6",
+      "content_hash": "sha256:41e881d49fbeb143c4aae5f081f828efa9aa2042089507df69386d561f668f87",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:6 - Pattern relations do not prescribe a research lifecycle",
+      "line": 56,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-6"
+    },
+    {
+      "anchor": "preface-7",
+      "content_hash": "sha256:49cafde10e654da9c67ad951edabe9743b292925b22b0ed75bfafd45526b2c05",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:7 - Use the two contributions together",
+      "line": 62,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-7"
+    },
+    {
+      "anchor": "preface-8",
+      "content_hash": "sha256:8cd991c62063fca148d1e570e319cc4d69f9f9925c98986aae16082dab0257c9",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:8 - Connect operationalization and actual trace",
+      "line": 74,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-8"
+    },
+    {
+      "anchor": "preface-9",
+      "content_hash": "sha256:664ea3767e114f6e229c5d54112482d08a3a2eb66f0b5a68ff236a778c009389",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:9 - Connect analysis and the credibility choice",
+      "line": 86,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-9"
+    },
+    {
+      "anchor": "preface-10",
+      "content_hash": "sha256:3bd093946f017192ade157a04e732847c0de0bb118b801f1e3d2ee988daef8e0",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:10 - Connect corpus synthesis and exact revision",
+      "line": 94,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-10"
+    },
+    {
+      "anchor": "preface-11",
+      "content_hash": "sha256:d0e6f8f8535b23ddc23a18c547f5002cd68d0117e677f132b2019dce46fbcc11",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:11 - Connect Method improvement and research consequences",
+      "line": 106,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-11"
+    },
+    {
+      "anchor": "preface-12",
+      "content_hash": "sha256:da011ca44e43ce33478bf8abb59c32262f6c135eab4cad7e68dd6ea40d599bce",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:12 - Conditions for a usable combined result",
+      "line": 116,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-12"
+    },
+    {
+      "anchor": "preface-13",
+      "content_hash": "sha256:e470f04fe523baa3e7415e25479bb8f50beca3aec1704c773cbd81e7ead8e176",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:13 - Architectural Rationale",
+      "line": 130,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-13"
+    },
+    {
+      "anchor": "preface-14",
+      "content_hash": "sha256:12defe868665a080887deabe4537af387c80e223b04aed31fd5f788d913e7eee",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:14 - What the repertoire foregrounds and leaves outside",
+      "line": 148,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-14"
+    },
+    {
+      "anchor": "preface-end",
+      "content_hash": "sha256:d2bc3dfac817e045d82489a610ce7ff56b27a9854b40c6203abb770fbb48bd69",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "RMP.Preface:End",
+      "line": 154,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/PREFACE#preface-end"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:aea07a89ad6b7151d046395e2a59f09f626f7c079545c9dbda7e6c74ebf7ab27",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Research Method Practice Principles Framework Readme",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/README#root"
+    },
+    {
+      "anchor": "practical-entries",
+      "content_hash": "sha256:04fe6926fe5af0b7aec3646510f870b0799c09ca0c2587f2d6aead84a8847c76",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Practical entries",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/README#practical-entries"
+    },
+    {
+      "anchor": "rmp-seal-separate-routine-qualification-from-a-mechanism",
+      "content_hash": "sha256:2c933c65253d7e9fe73da99382feaeba9fa66c9523ec6b3f791c7dca0ef68eb8",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "RMP-SEAL — Separate routine qualification from a mechanism-validity inquiry",
+      "line": 17,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/README#rmp-seal-separate-routine-qualification-from-a-mechanism"
+    },
+    {
+      "anchor": "rmp-citizen-investigate-a-stream-anomaly-without-an-affiliation",
+      "content_hash": "sha256:c292a9f481154722e5542e1c830d25b999fcb23cac730d067286c5855d10aed3",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "RMP-CITIZEN — Investigate a stream anomaly without an affiliation gate",
+      "line": 34,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/README#rmp-citizen-investigate-a-stream-anomaly-without-an-affiliation"
+    },
+    {
+      "anchor": "rmp-correction-repair-an-analysis-and-return-its-consequence",
+      "content_hash": "sha256:33b68840a49482a410b6cfadd36dc9b6e71671dd1a17411f860c6bd32b8feaf2",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "RMP-CORRECTION — Repair an analysis and return its consequence without discarding a suitable method",
+      "line": 50,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/README#rmp-correction-repair-an-analysis-and-return-its-consequence"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:964872efdf509eb779fd807da182340250534abea4bc1b7c799040a764fc84f8",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "Table of Contents",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/TOC#root"
+    },
+    {
+      "anchor": "public-units",
+      "content_hash": "sha256:d5a5b90718031006ef8744dbabbab8ee11a348fafa362ae5c9b2d6ba7bd381c6",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "Public units",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/TOC#public-units"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:ac3ec2b58849578e578b39caf3011229ec3fb35c9cd2518ca6d900dc291bac11",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "Cross-Pattern Application",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/cross-pattern-application#root"
+    },
+    {
+      "anchor": "app-rmp-01-pump-p4-accelerated-seal-evidence",
+      "content_hash": "sha256:c9f59bf7ce9e8dff1f62d54068b68671e64000acfd005e65bb2156cf776aa4ac",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "APP-RMP-01 — Pump-P4 accelerated seal evidence",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/cross-pattern-application#app-rmp-01-pump-p4-accelerated-seal-evidence"
+    },
+    {
+      "anchor": "first-fork-routine-qualification-supplied-answer-or-research",
+      "content_hash": "sha256:1ce724bff0daaf3d4c72ca7157158cd4a7390df93f42aa97560a9481e7e42c30",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "First fork — routine qualification, supplied answer, or research question",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/cross-pattern-application#first-fork-routine-qualification-supplied-answer-or-research"
+    },
+    {
+      "anchor": "second-fork-answer-the-current-research-allocation-question",
+      "content_hash": "sha256:30156adfbb9f57f0fb28d32f72cff08e109dfc0ab45a288c9f64a183d7291a38",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "Second fork — answer the current research-allocation question",
+      "line": 26,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/cross-pattern-application#second-fork-answer-the-current-research-allocation-question"
+    },
+    {
+      "anchor": "from-the-selected-design-to-operational-choices-and-actual-trace",
+      "content_hash": "sha256:893fdecaf04e7c036d5f69dfde3688ee7856e7e216ca4c73d68f2282a537ec6c",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "From the selected design to operational choices and actual trace",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/cross-pattern-application#from-the-selected-design-to-operational-choices-and-actual-trace"
+    },
+    {
+      "anchor": "from-analysis-to-a-relevant-credibility-examination",
+      "content_hash": "sha256:189453248af42e81c9c65e8584144db1943f94622fa8f4198c779028fc74ee6f",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "From analysis to a relevant credibility examination",
+      "line": 49,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/cross-pattern-application#from-analysis-to-a-relevant-credibility-examination"
+    },
+    {
+      "anchor": "from-a-corpus-answer-to-the-exact-model-return",
+      "content_hash": "sha256:05f9666006bcb6811b54367bd4c9351dd66a21931c409e005c90e0c28fbe4f09",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "From a corpus answer to the exact model return",
+      "line": 55,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/cross-pattern-application#from-a-corpus-answer-to-the-exact-model-return"
+    },
+    {
+      "anchor": "app-rmp-02-residentstream-s17-salinity-anomaly",
+      "content_hash": "sha256:7a194bded9df415e49fa950ee5033e77ee477686bfa585c271f085f5365e2b43",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "APP-RMP-02 — ResidentStream-S17 salinity anomaly",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/cross-pattern-application#app-rmp-02-residentstream-s17-salinity-anomaly"
+    },
+    {
+      "anchor": "preserve-the-comparison-when-the-field-situation-changes",
+      "content_hash": "sha256:3613f025337782569478072203669ed4dfc0b2940de793713ce7d0bead8a18f8",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "Preserve the comparison when the field situation changes",
+      "line": 87,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/cross-pattern-application#preserve-the-comparison-when-the-field-situation-changes"
+    },
+    {
+      "anchor": "relate-unlike-contributions-and-return-the-limitation",
+      "content_hash": "sha256:2cf1516f5ecabf165c310103cc8fe20a934ea4dbd268e540bcf04fb2810175ca",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "Relate unlike contributions and return the limitation",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/cross-pattern-application#relate-unlike-contributions-and-return-the-limitation"
+    },
+    {
+      "anchor": "app-rmp-03-factory-closure-historical-transfer-probe",
+      "content_hash": "sha256:a77e4873cd946011830197e6215d03a63cb8701ce7389c8be1f29c4b794e8e7d",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "APP-RMP-03 — Factory-closure historical transfer probe",
+      "line": 105,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/cross-pattern-application#app-rmp-03-factory-closure-historical-transfer-probe"
+    },
+    {
+      "anchor": "app-rmp-04-retain-the-method-and-correct-its-research",
+      "content_hash": "sha256:4483b7358758845c6142ba2df3761fb3589dea50c40b68b00aeb50dd21d11a5a",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "APP-RMP-04 — Retain the Method and correct its research consequence",
+      "line": 118,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/cross-pattern-application#app-rmp-04-retain-the-method-and-correct-its-research"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:2bde0c1056883066323b3e11d75c295f1247a95c6dc78941be3ed47c4f729ef1",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Framework Boundary and Refresh",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#root"
+    },
+    {
+      "anchor": "intended-use-and-ordinary-non-use",
+      "content_hash": "sha256:a2aeaa15fb7d7b3160f6c4632f529935239eee9e81c46c41e48d7f85149a8597",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Intended use and ordinary non-use",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#intended-use-and-ordinary-non-use"
+    },
+    {
+      "anchor": "judge-the-connected-result",
+      "content_hash": "sha256:95f4862a834ff2af08882695d806fc07afcd8c42b3578f625dd98d8b88a1c4f6",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Judge the connected result",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#judge-the-connected-result"
+    },
+    {
+      "anchor": "bias-and-the-reach-of-these-examples",
+      "content_hash": "sha256:c1980d63eb03ceb50dc84858e3ad04b72855f8fab9be50280f16ab2246cc3e53",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Bias and the reach of these examples",
+      "line": 34,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#bias-and-the-reach-of-these-examples"
+    },
+    {
+      "anchor": "failures-at-the-connection-between-the-patterns",
+      "content_hash": "sha256:64ffa1bb16fff45342a2fb391f9a1c180d5619fb0d83157008ddbffce9d41974",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Failures at the connection between the patterns",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#failures-at-the-connection-between-the-patterns"
+    },
+    {
+      "anchor": "practical-consequences-and-revision",
+      "content_hash": "sha256:01aedb37c6a795d2e3e511db4a297e79c8cd49968186c0f18e74c2c86d95e831",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Practical consequences and revision",
+      "line": 58,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#practical-consequences-and-revision"
+    },
+    {
+      "anchor": "patternid-and-reader-order",
+      "content_hash": "sha256:c97824547910d0eefb9215832d4f56d006536a6c9cfce2491ccab9eeb5411148",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "PatternID and reader order",
+      "line": 66,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#patternid-and-reader-order"
+    },
+    {
+      "anchor": "available-repertoire-and-scope",
+      "content_hash": "sha256:f4c91de067e8b6ee9f36068140ae9ce12f21c63819fbf73c2eefef1c1234fe89",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Available repertoire and scope",
+      "line": 85,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#available-repertoire-and-scope"
+    },
+    {
+      "anchor": "direct-result-relations-and-non-lifecycle-topology",
+      "content_hash": "sha256:c79bb65e5aff55364ea08b31775c7bbc8df637fc3252e611b071eec73d4c082b",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Direct result relations and non-lifecycle topology",
+      "line": 97,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#direct-result-relations-and-non-lifecycle-topology"
+    },
+    {
+      "anchor": "source-use-and-currentness",
+      "content_hash": "sha256:47987bfad85d266a106e4248e728a461f0fa5d2c76027f66a585c4c0919a1789",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Source use and currentness",
+      "line": 115,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#source-use-and-currentness"
+    },
+    {
+      "anchor": "what-the-sources-contribute-to-the-shared-architecture",
+      "content_hash": "sha256:8b6aa4676084cb7ea016c0adea0ca84de68827ba13b8eff62c00018998f502cb",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "What the sources contribute to the shared architecture",
+      "line": 145,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#what-the-sources-contribute-to-the-shared-architecture"
+    },
+    {
+      "anchor": "using-fpf-for-the-source-answer",
+      "content_hash": "sha256:4fae19f2754b5b4fef78a685c1b7f145ad859ee914db9f6d68cdc786de7100ae",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Using FPF for the Source Answer",
+      "line": 167,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#using-fpf-for-the-source-answer"
+    },
+    {
+      "anchor": "external-result-and-authority-boundaries",
+      "content_hash": "sha256:bead06ea5effe834ffb28ba3ffef376dce12c5b27b8efecd7d592f1101f36a9d",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "External result and authority boundaries",
+      "line": 175,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#external-result-and-authority-boundaries"
+    },
+    {
+      "anchor": "public-returns-to-adjoining-practice",
+      "content_hash": "sha256:b490fea81f4ebc2939e99325faed5036416d229b8496313e5edec4c9938fd2e7",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Public returns to adjoining practice",
+      "line": 183,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#public-returns-to-adjoining-practice"
+    },
+    {
+      "anchor": "representative-case-coverage",
+      "content_hash": "sha256:1c2ed9572292abc375ef4b39578207610b151a36f9089e015855c59b0ed00ad3",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Representative case coverage",
+      "line": 199,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#representative-case-coverage"
+    },
+    {
+      "anchor": "edition-return",
+      "content_hash": "sha256:fc319626a6fd8236ef4c792068978b2191ed16d5b2b4435c891965cbc811ee33",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Edition return",
+      "line": 212,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#edition-return"
+    },
+    {
+      "anchor": "citation",
+      "content_hash": "sha256:81be3665a9d21740085bba28dfedc59ffdcda7e50253369669ab7678b0eabb6a",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Citation",
+      "line": 218,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#citation"
+    },
+    {
+      "anchor": "publication-and-maintenance-boundary",
+      "content_hash": "sha256:a163980386933b1a821209fa739d83279e3d736862fff19bf358377478c95abd",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Publication and maintenance boundary",
+      "line": 224,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/framework-boundary-and-refresh#publication-and-maintenance-boundary"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:c3219c3788b8facc5556a18dafd095b0df240c35291107ff034567e749038e21",
+      "doc_path": "pub/parts/part-i-qualify-the-question-and-choose-a-design",
+      "file": "vibevm/vibespecs/pub/parts/part-i-qualify-the-question-and-choose-a-design.md",
+      "heading": "Part I - Qualify the Question and Choose a Design or Stop",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/parts/part-i-qualify-the-question-and-choose-a-design#root"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:a91f5f0731025838fa713054485ba459643968f5006855474673d1dba59cee03",
+      "doc_path": "pub/parts/part-ii-operationalization-and-research-trace",
+      "file": "vibevm/vibespecs/pub/parts/part-ii-operationalization-and-research-trace.md",
+      "heading": "Part II - Operationalization and Research Trace",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/parts/part-ii-operationalization-and-research-trace#root"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:c9c3752ff5b3fa57e5dd4b7a0a955a0f02d081faa6a68b81fa092ec998437c98",
+      "doc_path": "pub/parts/part-iii-analyze-claims-and-choose-credibility",
+      "file": "vibevm/vibespecs/pub/parts/part-iii-analyze-claims-and-choose-credibility.md",
+      "heading": "Part III - Analyze Claims and Choose Credibility Work",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/parts/part-iii-analyze-claims-and-choose-credibility#root"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:6e342621ead9ccc3fcca1afb9f98bbc95136723369f484a0b6ea5cc37da2d51d",
+      "doc_path": "pub/parts/part-iv-synthesize-evidence-and-revise-the",
+      "file": "vibevm/vibespecs/pub/parts/part-iv-synthesize-evidence-and-revise-the.md",
+      "heading": "Part IV - Synthesize Evidence and Revise the Exact Contribution",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/parts/part-iv-synthesize-evidence-and-revise-the#root"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:3217d75b9325abe73fd36bff9ecead16d1ca6f73cc8b60f8d67bc94cdbab3fd2",
+      "doc_path": "pub/parts/part-v-improve-and-refresh-research-methods-and",
+      "file": "vibevm/vibespecs/pub/parts/part-v-improve-and-refresh-research-methods-and.md",
+      "heading": "Part V - Improve and Refresh Research Methods and Practice",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/pub/parts/part-v-improve-and-refresh-research-methods-and#root"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:c21ddb126733c81a32dc4e337c8c50de35f95420f8f45b9b34df4cf00c69ea27",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1 — Decide Whether a Question Needs Research and When to Stop: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:8958ee352cb551a1062713e126a24dde6b7380ddf42f83ed3a419b68383fcf41",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#archetypal-grounding"
+    },
+    {
+      "anchor": "corporate-seal-test-case",
+      "content_hash": "sha256:27cca8951db2db7b8befb97c44cec706f08cabff92ecb3a870bc61ba81ff9b8a",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1:5.1 - Corporate Seal-Test Case",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#corporate-seal-test-case"
+    },
+    {
+      "anchor": "citizen-stream-salinity-transfer",
+      "content_hash": "sha256:94c497c150ba192eb3516ebe24c0070ddd3b3255b7d0fbf42806c907eb70669c",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1:5.2 - Citizen Stream-Salinity Transfer",
+      "line": 33,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#citizen-stream-salinity-transfer"
+    },
+    {
+      "anchor": "historical-source-critical-contrast",
+      "content_hash": "sha256:dd17f67a5e26006961a1dd28abf2dcb21f5c837eb0c316a20399d23ee56337cb",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1:5.3 - Historical Source-Critical Contrast",
+      "line": 41,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#historical-source-critical-contrast"
+    },
+    {
+      "anchor": "retrieval-sufficient-stop",
+      "content_hash": "sha256:fc81bca9a49d09e3e19167c3e6b5cd48deaeb7d142d7685c534be8d2dbdc8105",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1:5.4 - Retrieval-Sufficient Stop",
+      "line": 45,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#retrieval-sufficient-stop"
+    },
+    {
+      "anchor": "recover-an-answer-from-the-texts",
+      "content_hash": "sha256:5083496993c760dcd78a9d9248106892a9f9e0dd2eba29b33542f493c91cbbd3",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1:5.5 - Recover an Answer from the Texts",
+      "line": 51,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#recover-an-answer-from-the-texts"
+    },
+    {
+      "anchor": "compare-the-answers-that-existing-reports-can-supply",
+      "content_hash": "sha256:2118f62a2877d62d1a0d1ab0f992b83398fda21d197d05018a2d8568efa8ffe4",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1:5.6 - Compare the Answers that Existing Reports Can Supply",
+      "line": 59,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#compare-the-answers-that-existing-reports-can-supply"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:f435a5c2c1138fa54b08a3a312ffeb7030985b5ed3a2d8cad0dd13b82f4581f0",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1:6 - Bias-Annotation",
+      "line": 65,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:152cc314135a14f1ea09ebb67d14fe771fecf5fe79c1df93bf160ab2ea3eefa0",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 81,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:39aa4cd7729d74b4304bfe5d554097b7893e7a49515a0f060c008b236d015ab9",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1:10 - Rationale",
+      "line": 97,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:35c529e1af5eb3342b6bda3f9996cfd2e011fdd18d930d23c24f8bbda04b0499",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1:11 - SoTA-Echoing",
+      "line": 105,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:1671dd818e3e16eeb338e9b730829f2e752f0db2bdd1abbe953702efc31fe53a",
+      "doc_path": "source/RMP-1",
+      "file": "vibevm/vibespecs/source/RMP-1.md",
+      "heading": "RMP.1:End",
+      "line": 118,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-1#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:1a5c2f2caa65b2e49bc9ef105b757c8d39dc54e159f053419da12d8d5ef27539",
+      "doc_path": "source/RMP-2",
+      "file": "vibevm/vibespecs/source/RMP-2.md",
+      "heading": "RMP.2 — Choose a Criticism-Bearing Research Design or Stop: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-2#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:097549c92b87a2cc5821ae68ca7ed3731fa5042b22292ff8a13e1583f07decf8",
+      "doc_path": "source/RMP-2",
+      "file": "vibevm/vibespecs/source/RMP-2.md",
+      "heading": "RMP.2:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-2#archetypal-grounding"
+    },
+    {
+      "anchor": "accelerated-seal-test-different-supplied-values",
+      "content_hash": "sha256:92c716cc52a85ec0ce97b8216cda477577f169347fe5afe35b4d86688666aad9",
+      "doc_path": "source/RMP-2",
+      "file": "vibevm/vibespecs/source/RMP-2.md",
+      "heading": "RMP.2:5.1 - Accelerated Seal-Test: Different Supplied Values",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-2#accelerated-seal-test-different-supplied-values"
+    },
+    {
+      "anchor": "citizen-stream-salinity-dispositions-without-an-affiliation-gate",
+      "content_hash": "sha256:e5778f7d3455d63ebd64d7fa0dee8bc18cd908a75e6cb0b6572b7c43d66e82f3",
+      "doc_path": "source/RMP-2",
+      "file": "vibevm/vibespecs/source/RMP-2.md",
+      "heading": "RMP.2:5.2 - Citizen Stream Salinity: Dispositions without an Affiliation Gate",
+      "line": 32,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-2#citizen-stream-salinity-dispositions-without-an-affiliation-gate"
+    },
+    {
+      "anchor": "historical-source-critical-case",
+      "content_hash": "sha256:f699f05292b369f8369b48c355dd5d71803603be32d50248c7bbf650ff087756",
+      "doc_path": "source/RMP-2",
+      "file": "vibevm/vibespecs/source/RMP-2.md",
+      "heading": "RMP.2:5.3 - Historical Source-Critical Case",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-2#historical-source-critical-case"
+    },
+    {
+      "anchor": "postselectionneed-counterfactual",
+      "content_hash": "sha256:4babb3f3a9735e2fc2451e05c621922dae43fdccd9894bbb43334cf039ca5a48",
+      "doc_path": "source/RMP-2",
+      "file": "vibevm/vibespecs/source/RMP-2.md",
+      "heading": "RMP.2:5.4 - PostSelectionNeed Counterfactual",
+      "line": 50,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-2#postselectionneed-counterfactual"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:74461791b3d02faca7e6174237c8a8e800766f4810a904024b04800c76f75ca2",
+      "doc_path": "source/RMP-2",
+      "file": "vibevm/vibespecs/source/RMP-2.md",
+      "heading": "RMP.2:6 - Bias-Annotation",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-2#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:a6195b082468fd8e9c057a4c2254d866c5968c38022999512b911dd27edba9f0",
+      "doc_path": "source/RMP-2",
+      "file": "vibevm/vibespecs/source/RMP-2.md",
+      "heading": "RMP.2:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 76,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-2#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:7b2f57e89880ec1efda5abf248006fdfcad1b4fbf4dd4e2e8410c180da2ebdd7",
+      "doc_path": "source/RMP-2",
+      "file": "vibevm/vibespecs/source/RMP-2.md",
+      "heading": "RMP.2:10 - Rationale",
+      "line": 91,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-2#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:dc86a5c7630c2014e5689478c72494be928e448a279b5ca4e38f7468b4c3f8f9",
+      "doc_path": "source/RMP-2",
+      "file": "vibevm/vibespecs/source/RMP-2.md",
+      "heading": "RMP.2:11 - SoTA-Echoing",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-2#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:ab484be79a7075eecdf1d8685530398dceca44dbf957cd918392b21bfceeed14",
+      "doc_path": "source/RMP-2",
+      "file": "vibevm/vibespecs/source/RMP-2.md",
+      "heading": "RMP.2:End",
+      "line": 112,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-2#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:bc31e9936fce3d2a439d5cca847d06186ac9492924e7058b676d569970037380",
+      "doc_path": "source/RMP-3",
+      "file": "vibevm/vibespecs/source/RMP-3.md",
+      "heading": "RMP.3 - Operationalize the Research Design without Replacing the Question: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-3#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:2a52598fb7ea8bd221212e8cffbf76fb7eefe936c4058163b8f5c703aff6e455",
+      "doc_path": "source/RMP-3",
+      "file": "vibevm/vibespecs/source/RMP-3.md",
+      "heading": "RMP.3:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-3#archetypal-grounding"
+    },
+    {
+      "anchor": "pump-p4-from-a-mechanism-question-to-an-executable-comparison",
+      "content_hash": "sha256:5d70a865daa954f183a0f758c3471124c046a3a37cb6d383ff15da375626a8e0",
+      "doc_path": "source/RMP-3",
+      "file": "vibevm/vibespecs/source/RMP-3.md",
+      "heading": "RMP.3:5.1 - Pump-P4: from a mechanism question to an executable comparison",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-3#pump-p4-from-a-mechanism-question-to-an-executable-comparison"
+    },
+    {
+      "anchor": "residentstream-s17-a-missing-comparison-is-not-a-scheduling",
+      "content_hash": "sha256:74b7d76dd82304ff7466737cd0b20b4de35578f2cebbd1430851fc7ca0a55451",
+      "doc_path": "source/RMP-3",
+      "file": "vibevm/vibespecs/source/RMP-3.md",
+      "heading": "RMP.3:5.2 - ResidentStream-S17: a missing comparison is not a scheduling detail",
+      "line": 30,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-3#residentstream-s17-a-missing-comparison-is-not-a-scheduling"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:1ce6792048cc6aaac9ebdddb00b3abe49968f62f353185ccb83e85750c5106dc",
+      "doc_path": "source/RMP-3",
+      "file": "vibevm/vibespecs/source/RMP-3.md",
+      "heading": "RMP.3:6 - Bias-Annotation",
+      "line": 38,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-3#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:ad9843329be5e2d5c4dde623d01d217ae6488ff043edb358c4579a9fe98f5fef",
+      "doc_path": "source/RMP-3",
+      "file": "vibevm/vibespecs/source/RMP-3.md",
+      "heading": "RMP.3:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-3#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:643c632b96431c5f55e19df1f51a055b220d4b59818676344833be55760eaa38",
+      "doc_path": "source/RMP-3",
+      "file": "vibevm/vibespecs/source/RMP-3.md",
+      "heading": "RMP.3:10 - Architectural Rationale",
+      "line": 58,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-3#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:f789e5576ac6c4f2db994c13c24190cbe9a3632501d30a91ee01c76e4ccb2c81",
+      "doc_path": "source/RMP-3",
+      "file": "vibevm/vibespecs/source/RMP-3.md",
+      "heading": "RMP.3:11 - SoTA-Echoing",
+      "line": 66,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-3#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:4436e34763c6806cdd7457a9411f917f4b3d38f8a58a1796d11c314de49ce4bd",
+      "doc_path": "source/RMP-3",
+      "file": "vibevm/vibespecs/source/RMP-3.md",
+      "heading": "RMP.3:End",
+      "line": 83,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-3#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:ba422b4f015d76699643c29ffa908031f2df3b4efe64d1ea3f93a3963bc2ad56",
+      "doc_path": "source/RMP-4",
+      "file": "vibevm/vibespecs/source/RMP-4.md",
+      "heading": "RMP.4 - Preserve a Criticism-Ready Research Trace: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-4#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:45e04e90845ba14d81aa70854762f738f5b52a4d7d47308cdbc0f7f5ea061928",
+      "doc_path": "source/RMP-4",
+      "file": "vibevm/vibespecs/source/RMP-4.md",
+      "heading": "RMP.4:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-4#archetypal-grounding"
+    },
+    {
+      "anchor": "residentstream-s17-preserve-a-useful-trace-after-losing-the",
+      "content_hash": "sha256:a40290c998c9bf22f9438015601a3bcd52e69641456ed4e0ac345d410b07623e",
+      "doc_path": "source/RMP-4",
+      "file": "vibevm/vibespecs/source/RMP-4.md",
+      "heading": "RMP.4:5.1 - ResidentStream-S17: preserve a useful trace after losing the comparison",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-4#residentstream-s17-preserve-a-useful-trace-after-losing-the"
+    },
+    {
+      "anchor": "pump-p4-distinguish-absence-exclusion-and-interpretation",
+      "content_hash": "sha256:1affe88a8696394498cd51b9c2d24b9e3bdf0151cef430e4ac892dc88b47c710",
+      "doc_path": "source/RMP-4",
+      "file": "vibevm/vibespecs/source/RMP-4.md",
+      "heading": "RMP.4:5.2 - Pump-P4: distinguish absence, exclusion and interpretation",
+      "line": 33,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-4#pump-p4-distinguish-absence-exclusion-and-interpretation"
+    },
+    {
+      "anchor": "a-computation-with-a-research-shaping-ai-suggestion",
+      "content_hash": "sha256:528bebca4978364f2dcc684456e47e8dd8d5c99584482fefe6eb4acbfd5e3f1d",
+      "doc_path": "source/RMP-4",
+      "file": "vibevm/vibespecs/source/RMP-4.md",
+      "heading": "RMP.4:5.3 - A computation with a research-shaping AI suggestion",
+      "line": 41,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-4#a-computation-with-a-research-shaping-ai-suggestion"
+    },
+    {
+      "anchor": "historical-and-interpretive-records-support-different-criticisms",
+      "content_hash": "sha256:f9ec2725abe5e71d390b5f496a758705654567a22fb9b549295cc2f100031f70",
+      "doc_path": "source/RMP-4",
+      "file": "vibevm/vibespecs/source/RMP-4.md",
+      "heading": "RMP.4:5.4 - Historical and interpretive records support different criticisms",
+      "line": 49,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-4#historical-and-interpretive-records-support-different-criticisms"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:58f0a66c47d2cfc0b4e609e233d3ded3fd2c8e83ca8c9d2d5551bffd98864a7c",
+      "doc_path": "source/RMP-4",
+      "file": "vibevm/vibespecs/source/RMP-4.md",
+      "heading": "RMP.4:6 - Bias-Annotation",
+      "line": 55,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-4#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:90ed6c9a15b9a1c88f5b46804c1bf0759bb307753f743e75b3a7d93851d486b1",
+      "doc_path": "source/RMP-4",
+      "file": "vibevm/vibespecs/source/RMP-4.md",
+      "heading": "RMP.4:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-4#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:a629ee43249a16100f2cd84f324f914816a2efd0e28eb1b55ec9e446a9b8e1b5",
+      "doc_path": "source/RMP-4",
+      "file": "vibevm/vibespecs/source/RMP-4.md",
+      "heading": "RMP.4:10 - Architectural Rationale",
+      "line": 75,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-4#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:8b608439983d6841a28833a870c0ef9f4ede3efe64baae30592f6ac929d3b8c2",
+      "doc_path": "source/RMP-4",
+      "file": "vibevm/vibespecs/source/RMP-4.md",
+      "heading": "RMP.4:11 - SoTA-Echoing",
+      "line": 83,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-4#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:ed8c41091761c74d737490b223b555d3b83b08530f431f12b46998d5da0003f1",
+      "doc_path": "source/RMP-4",
+      "file": "vibevm/vibespecs/source/RMP-4.md",
+      "heading": "RMP.4:End",
+      "line": 101,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-4#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:3ae7dfeb775935e1889bb3e6135bd1bf5a11a8b0a32029ec4516adce07c788e9",
+      "doc_path": "source/RMP-5",
+      "file": "vibevm/vibespecs/source/RMP-5.md",
+      "heading": "RMP.5 - Analyze and Criticize the Research Claim under Its Method: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-5#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:a0cc343a528b60571bf98d2f165bbea232e8213be373b7673e13f4489078a74e",
+      "doc_path": "source/RMP-5",
+      "file": "vibevm/vibespecs/source/RMP-5.md",
+      "heading": "RMP.5:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-5#archetypal-grounding"
+    },
+    {
+      "anchor": "the-seal-model-runs-but-the-field-claim-is-still-open",
+      "content_hash": "sha256:0c4b88a0573f936f1005eb85d15e4bab3695dd0d8d5666406294417d18b7be9b",
+      "doc_path": "source/RMP-5",
+      "file": "vibevm/vibespecs/source/RMP-5.md",
+      "heading": "RMP.5:5.1 - The seal model runs, but the field claim is still open",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-5#the-seal-model-runs-but-the-field-claim-is-still-open"
+    },
+    {
+      "anchor": "downstream-salinity-without-the-reference-reach",
+      "content_hash": "sha256:27e83a3ecfff07f4b717d60beb8e3840961bc3147c94c2804b6396b136d377d2",
+      "doc_path": "source/RMP-5",
+      "file": "vibevm/vibespecs/source/RMP-5.md",
+      "heading": "RMP.5:5.2 - Downstream salinity without the reference reach",
+      "line": 19,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-5#downstream-salinity-without-the-reference-reach"
+    },
+    {
+      "anchor": "a-directive-date-and-an-earlier-practice",
+      "content_hash": "sha256:95e2b500f1d5976518c86410590c2826526b91096aaff07b686c3ca5bc8d6ea4",
+      "doc_path": "source/RMP-5",
+      "file": "vibevm/vibespecs/source/RMP-5.md",
+      "heading": "RMP.5:5.3 - A directive date and an earlier practice",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-5#a-directive-date-and-an-earlier-practice"
+    },
+    {
+      "anchor": "a-situated-theme-is-not-a-workforce-percentage",
+      "content_hash": "sha256:7ffae967f9833f123849ad2b84bf190b3ad84cfb7ec56489c5e30e18bef9499e",
+      "doc_path": "source/RMP-5",
+      "file": "vibevm/vibespecs/source/RMP-5.md",
+      "heading": "RMP.5:5.4 - A situated theme is not a workforce percentage",
+      "line": 33,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-5#a-situated-theme-is-not-a-workforce-percentage"
+    },
+    {
+      "anchor": "repeated-measurements-and-an-uncertain-contrast",
+      "content_hash": "sha256:ebbcc794b47f718e887fd60c1b8bd6b70e7aebe5a1792fb16739aeeaf887aac1",
+      "doc_path": "source/RMP-5",
+      "file": "vibevm/vibespecs/source/RMP-5.md",
+      "heading": "RMP.5:5.5 - Repeated measurements and an uncertain contrast",
+      "line": 41,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-5#repeated-measurements-and-an-uncertain-contrast"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:d9f4287def2eb899cabfd4138cea079df9e651436602ece2cf5f2f73c8bd8243",
+      "doc_path": "source/RMP-5",
+      "file": "vibevm/vibespecs/source/RMP-5.md",
+      "heading": "RMP.5:6 - Bias-Annotation",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-5#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:fc9264eaaaab5d58edd59f8a7e350ad568464c047288060c2f70a08610f5d78e",
+      "doc_path": "source/RMP-5",
+      "file": "vibevm/vibespecs/source/RMP-5.md",
+      "heading": "RMP.5:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 57,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-5#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:4f028589bf2dffb3b9f2a2e5c39ee01f145d008731abe32f3caf7669c558ab21",
+      "doc_path": "source/RMP-5",
+      "file": "vibevm/vibespecs/source/RMP-5.md",
+      "heading": "RMP.5:10 - Rationale",
+      "line": 68,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-5#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:bc82ca0eb81c9819839c64efa4daf6834dea757f653f3b5f6fe0431d139f2406",
+      "doc_path": "source/RMP-5",
+      "file": "vibevm/vibespecs/source/RMP-5.md",
+      "heading": "RMP.5:11 - SoTA-Echoing",
+      "line": 76,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-5#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:6328eb52554990f560187559a53f6279ebbe14dc758f6761ca0c791e8fe27354",
+      "doc_path": "source/RMP-5",
+      "file": "vibevm/vibespecs/source/RMP-5.md",
+      "heading": "RMP.5:End",
+      "line": 91,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-5#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:228f9bedf0d55f1eab22c651ddc4cb23e15f8c0038e80af7bb623b50d4ee1d06",
+      "doc_path": "source/RMP-6",
+      "file": "vibevm/vibespecs/source/RMP-6.md",
+      "heading": "RMP.6 - Choose a Credibility Test That Bears on the Research Claim, or Answer without New Testing: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-6#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:f4a7c40b915aa6c73a065fa90e42599dd43f3a18e55d1c0ec670bbf086cc4c03",
+      "doc_path": "source/RMP-6",
+      "file": "vibevm/vibespecs/source/RMP-6.md",
+      "heading": "RMP.6:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-6#archetypal-grounding"
+    },
+    {
+      "anchor": "from-a-reproduced-model-to-a-relevant-field-comparison",
+      "content_hash": "sha256:f545e827613c64475d74893bb6b01af2abc0f7cf578e7889078cc1bc9f1101b6",
+      "doc_path": "source/RMP-6",
+      "file": "vibevm/vibespecs/source/RMP-6.md",
+      "heading": "RMP.6:5.1 - From a reproduced model to a relevant field comparison",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-6#from-a-reproduced-model-to-a-relevant-field-comparison"
+    },
+    {
+      "anchor": "a-blocked-reproduction-is-not-a-contrary-result",
+      "content_hash": "sha256:dd513a612666dafc670186dbd0d626e30a64e9a9e4471c8bccc2436f9c2b4e5d",
+      "doc_path": "source/RMP-6",
+      "file": "vibevm/vibespecs/source/RMP-6.md",
+      "heading": "RMP.6:5.2 - A blocked reproduction is not a contrary result",
+      "line": 19,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-6#a-blocked-reproduction-is-not-a-contrary-result"
+    },
+    {
+      "anchor": "historical-corroboration-and-a-qualitative-receiving-change",
+      "content_hash": "sha256:83245d907dde0f29329a382ed015afd974ffd38da6bbaa110c3fe30dbda570b3",
+      "doc_path": "source/RMP-6",
+      "file": "vibevm/vibespecs/source/RMP-6.md",
+      "heading": "RMP.6:5.3 - Historical corroboration and a qualitative receiving change",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-6#historical-corroboration-and-a-qualitative-receiving-change"
+    },
+    {
+      "anchor": "two-useful-examinations-and-ten-days",
+      "content_hash": "sha256:14f23405a9bb241f55ff48a58b6aac0383cb2883a39c6fee07baefb864f66785",
+      "doc_path": "source/RMP-6",
+      "file": "vibevm/vibespecs/source/RMP-6.md",
+      "heading": "RMP.6:5.4 - Two useful examinations and ten days",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-6#two-useful-examinations-and-ten-days"
+    },
+    {
+      "anchor": "two-different-merits-answers-one-authority-boundary",
+      "content_hash": "sha256:5c539b04204ee84524d87f39279b9beff1a952881130a75bf5000189a3ca7475",
+      "doc_path": "source/RMP-6",
+      "file": "vibevm/vibespecs/source/RMP-6.md",
+      "heading": "RMP.6:5.5 - Two different merits answers, one authority boundary",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-6#two-different-merits-answers-one-authority-boundary"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:d7b6412d2ed1e9a80f6f1cf4038a602d9d95e25e1acb592a181f81e1634d8668",
+      "doc_path": "source/RMP-6",
+      "file": "vibevm/vibespecs/source/RMP-6.md",
+      "heading": "RMP.6:6 - Bias-Annotation",
+      "line": 53,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-6#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:9d4eb802148cb3263d048758cdae0387bf6d3d350ae9cdb73045878f8d16847c",
+      "doc_path": "source/RMP-6",
+      "file": "vibevm/vibespecs/source/RMP-6.md",
+      "heading": "RMP.6:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-6#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:92e512fd82a217eee34575f71256d117fd6a36012067977ac40c6df555be590e",
+      "doc_path": "source/RMP-6",
+      "file": "vibevm/vibespecs/source/RMP-6.md",
+      "heading": "RMP.6:10 - Rationale",
+      "line": 75,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-6#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:9f844827491ea2d927e5a689f5d3dc324cbfa534c7573edcd57d62145128c563",
+      "doc_path": "source/RMP-6",
+      "file": "vibevm/vibespecs/source/RMP-6.md",
+      "heading": "RMP.6:11 - SoTA-Echoing",
+      "line": 83,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-6#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:92c4dfdd5db0d4a1ec2d11d66928c5871c8e59574f498ad43d1a661d1b5fb416",
+      "doc_path": "source/RMP-6",
+      "file": "vibevm/vibespecs/source/RMP-6.md",
+      "heading": "RMP.6:End",
+      "line": 98,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-6#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:92fe48eec3c40692294c7ca82c71c5dac4ac8f70f48d1982f9238332a23b881b",
+      "doc_path": "source/RMP-7",
+      "file": "vibevm/vibespecs/source/RMP-7.md",
+      "heading": "RMP.7 - Synthesize a Research Evidence Corpus: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-7#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:3ab91a34bd2b4f1b0bbed59a3c476bd8ce270d801077282fecd7026544aba0f8",
+      "doc_path": "source/RMP-7",
+      "file": "vibevm/vibespecs/source/RMP-7.md",
+      "heading": "RMP.7:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-7#archetypal-grounding"
+    },
+    {
+      "anchor": "two-compatible-tests-among-four-reports",
+      "content_hash": "sha256:a462b407d9bc8aee2358ce0100bf266a56c378f1a134fceb4245740d08b20849",
+      "doc_path": "source/RMP-7",
+      "file": "vibevm/vibespecs/source/RMP-7.md",
+      "heading": "RMP.7:5.1 - Two compatible tests among four reports",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-7#two-compatible-tests-among-four-reports"
+    },
+    {
+      "anchor": "a-refusal-with-useful-content",
+      "content_hash": "sha256:21bd42bdfb5dc5003fb513c7bbf8bace062f54b14e07b5a5424be38de9ffcb52",
+      "doc_path": "source/RMP-7",
+      "file": "vibevm/vibespecs/source/RMP-7.md",
+      "heading": "RMP.7:5.2 - A refusal with useful content",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-7#a-refusal-with-useful-content"
+    },
+    {
+      "anchor": "situated-participation-and-a-mixed-question",
+      "content_hash": "sha256:7c91cdde3a569dfdca21c23b5e294462d7a084a771846b117e16f1ae43f74737",
+      "doc_path": "source/RMP-7",
+      "file": "vibevm/vibespecs/source/RMP-7.md",
+      "heading": "RMP.7:5.3 - Situated participation and a mixed question",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-7#situated-participation-and-a-mixed-question"
+    },
+    {
+      "anchor": "shared-memoir-and-contrary-chronology",
+      "content_hash": "sha256:8c0aaa8258866798a511ba8457e67c87f34363284886a2e05a16f4a42a6ce984",
+      "doc_path": "source/RMP-7",
+      "file": "vibevm/vibespecs/source/RMP-7.md",
+      "heading": "RMP.7:5.4 - Shared memoir and contrary chronology",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-7#shared-memoir-and-contrary-chronology"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:f4bab108de541b2c8b442896ab6ce5e7b5e8e7a5b455e0fa94d56c976471b4ad",
+      "doc_path": "source/RMP-7",
+      "file": "vibevm/vibespecs/source/RMP-7.md",
+      "heading": "RMP.7:6 - Bias-Annotation",
+      "line": 41,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-7#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:432f571e3047b781b7877787fbbe9a2dd8ab8fce6b21913b99525e8cec71f895",
+      "doc_path": "source/RMP-7",
+      "file": "vibevm/vibespecs/source/RMP-7.md",
+      "heading": "RMP.7:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-7#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:dc2963dd24166ef173e7f2bbf4ea70f45da0eefb662233251d1bb83623355a97",
+      "doc_path": "source/RMP-7",
+      "file": "vibevm/vibespecs/source/RMP-7.md",
+      "heading": "RMP.7:10 - Rationale",
+      "line": 58,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-7#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:785d0807e6eb172200e403bcba85051e03c77c5916c0ae20134bd30514927ccf",
+      "doc_path": "source/RMP-7",
+      "file": "vibevm/vibespecs/source/RMP-7.md",
+      "heading": "RMP.7:11 - SoTA-Echoing",
+      "line": 64,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-7#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:1cba07774b215655e20a520c28ab266a8c3567eb79d1223995ca817d90275b1c",
+      "doc_path": "source/RMP-7",
+      "file": "vibevm/vibespecs/source/RMP-7.md",
+      "heading": "RMP.7:End",
+      "line": 79,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-7#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:0e79e02d0146c070333818b2fdc49d2b3a47c02c211db02e18fef6440b2efdfe",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8 - Use Research Results to Retain or Revise an Episteme's Claims and Return Bounded Evidence: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:b75722641393a9f41f6e35d6844f3276eef99168b48b8c8af8a82e1f8395fb14",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#archetypal-grounding"
+    },
+    {
+      "anchor": "keep-the-laboratory-result-withdraw-the-unsupported-field",
+      "content_hash": "sha256:42106df7565a0bb8fefda3d2d3c8d6354673ea62ce7945ba06b5f1c4007dc48a",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8:5.1 - Keep the laboratory result, withdraw the unsupported field prediction",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#keep-the-laboratory-result-withdraw-the-unsupported-field"
+    },
+    {
+      "anchor": "correct-the-same-historical-event",
+      "content_hash": "sha256:fbd5b079075d770a742d0badc6e0fc73387735339171bbf73fc85fec02daa0a1",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8:5.2 - Correct the same historical event",
+      "line": 25,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#correct-the-same-historical-event"
+    },
+    {
+      "anchor": "return-a-situated-finding-without-inventing-prevalence",
+      "content_hash": "sha256:5818d3d4b019572b1a0eec56a67c5e8d084d09ea5865acefb30839400346437b",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8:5.3 - Return a situated finding without inventing prevalence",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#return-a-situated-finding-without-inventing-prevalence"
+    },
+    {
+      "anchor": "an-adequate-answer-and-a-later-correction",
+      "content_hash": "sha256:29360564cd80f1b8834c96902bc70b9d7aecf94411cd7b2bff2cd5eb69748b97",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8:5.4 - An adequate answer and a later correction",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#an-adequate-answer-and-a-later-correction"
+    },
+    {
+      "anchor": "valuable-uncertainty-without-an-obtainable-study",
+      "content_hash": "sha256:ef653d154d0cb5609cc4684c2244d33d8b251c3ce03e7d876262a5926de0db31",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8:5.5 - Valuable uncertainty without an obtainable study",
+      "line": 49,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#valuable-uncertainty-without-an-obtainable-study"
+    },
+    {
+      "anchor": "one-calibration-contribution-an-article-and-a-pattern",
+      "content_hash": "sha256:9261d973e3af8ef75667492f1542d1c1c65e1acd16676848da262461a807117f",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8:5.6 - One calibration contribution, an article and a pattern",
+      "line": 57,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#one-calibration-contribution-an-article-and-a-pattern"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:423718eb0393048f5c69c86a7100b15af769a3dcd6ad936db5b2cf86c8517156",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8:6 - Bias-Annotation",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:472123bb5d860fc1f65a8f8f6f4a91f5437ff73282dd21142300e227296a5661",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 77,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:56217e2c020fb8c9921d794919463811197f8a395a97ba5499f68671d928f8f3",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8:10 - Rationale",
+      "line": 89,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:a7de939103d5ddd784a1130982c6e2dd34202a504fc3a2c3f51027fabc1eda91",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8:11 - SoTA-Echoing",
+      "line": 95,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:a98c4e5e4bac3e9210175e9ec0c0be0dc3211fca89a3665df0a4cb4a9418a036",
+      "doc_path": "source/RMP-8",
+      "file": "vibevm/vibespecs/source/RMP-8.md",
+      "heading": "RMP.8:End",
+      "line": 110,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-8#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:45118775d1f131dd44b7f098d842bccd7bb7b210bd5d2035d38452787e6010bc",
+      "doc_path": "source/RMP-9",
+      "file": "vibevm/vibespecs/source/RMP-9.md",
+      "heading": "RMP.9 — Decide Whether and How to Improve Research Methods and Practice: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-9#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:3c2bc89b109a1277eecd213825d66d9115638456b1263916bb0f83006d775c4f",
+      "doc_path": "source/RMP-9",
+      "file": "vibevm/vibespecs/source/RMP-9.md",
+      "heading": "RMP.9:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-9#archetypal-grounding"
+    },
+    {
+      "anchor": "correct-the-calculation-and-retain-the-method",
+      "content_hash": "sha256:8b7d18a5184a7bb6d59205f3a737b8ccdfd38b1952154681b4102da616d4c35e",
+      "doc_path": "source/RMP-9",
+      "file": "vibevm/vibespecs/source/RMP-9.md",
+      "heading": "RMP.9:5.1 - Correct the calculation and retain the Method",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-9#correct-the-calculation-and-retain-the-method"
+    },
+    {
+      "anchor": "select-a-worthwhile-comparison-without-inventing-its-result",
+      "content_hash": "sha256:a3aa20cc6efabdae58cd36f4baaf04044932ee32192047e8f45248c4e1a09e18",
+      "doc_path": "source/RMP-9",
+      "file": "vibevm/vibespecs/source/RMP-9.md",
+      "heading": "RMP.9:5.2 - Select a worthwhile comparison without inventing its result",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-9#select-a-worthwhile-comparison-without-inventing-its-result"
+    },
+    {
+      "anchor": "repair-interpretation-within-reflexive-thematic-analysis",
+      "content_hash": "sha256:9cd5d0d04f467a35f2130139f9a324e98cc974687ca870bf1f49d62cb3d3e687",
+      "doc_path": "source/RMP-9",
+      "file": "vibevm/vibespecs/source/RMP-9.md",
+      "heading": "RMP.9:5.3 - Repair interpretation within reflexive thematic analysis",
+      "line": 33,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-9#repair-interpretation-within-reflexive-thematic-analysis"
+    },
+    {
+      "anchor": "correct-source-extraction-without-certifying-a-new-tool",
+      "content_hash": "sha256:d5e81940315e77ed56da088be12e6d7eb7d72d8dd49b98be4f4fecfcbd5ca565",
+      "doc_path": "source/RMP-9",
+      "file": "vibevm/vibespecs/source/RMP-9.md",
+      "heading": "RMP.9:5.4 - Correct source extraction without certifying a new tool",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-9#correct-source-extraction-without-certifying-a-new-tool"
+    },
+    {
+      "anchor": "preserve-the-distinct-contributions-in-mixed-research",
+      "content_hash": "sha256:1d09be33dba160a23caf8677c132ca841cdc3d85a326783348d4a14beb7d4441",
+      "doc_path": "source/RMP-9",
+      "file": "vibevm/vibespecs/source/RMP-9.md",
+      "heading": "RMP.9:5.5 - Preserve the distinct contributions in mixed research",
+      "line": 45,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-9#preserve-the-distinct-contributions-in-mixed-research"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:ce36fd0e8903db97ff9ad0b99d9e94918c34fe23ed59a50ec37665910ea81961",
+      "doc_path": "source/RMP-9",
+      "file": "vibevm/vibespecs/source/RMP-9.md",
+      "heading": "RMP.9:6 - Bias-Annotation",
+      "line": 51,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-9#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:b504fb2e33969f5e0d892bb2cd430ccdb69ac09247e0dd84f483277ab5e44668",
+      "doc_path": "source/RMP-9",
+      "file": "vibevm/vibespecs/source/RMP-9.md",
+      "heading": "RMP.9:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 57,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-9#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:9b655f59a50995ff2eaf5b8f47a5fd0bf354d07de94b8c8e85c6092377c126d1",
+      "doc_path": "source/RMP-9",
+      "file": "vibevm/vibespecs/source/RMP-9.md",
+      "heading": "RMP.9:10 - Rationale",
+      "line": 69,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-9#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:666b551546331b3d38e5078cb22121573f6ace8efd96958d3ce31aa848e49d52",
+      "doc_path": "source/RMP-9",
+      "file": "vibevm/vibespecs/source/RMP-9.md",
+      "heading": "RMP.9:11 - SoTA-Echoing",
+      "line": 75,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-9#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:93947154b0f702e6a4453d4885e44f7222d1c7fb3f19d7ac8a127a14d633f1bf",
+      "doc_path": "source/RMP-9",
+      "file": "vibevm/vibespecs/source/RMP-9.md",
+      "heading": "RMP.9:End",
+      "line": 88,
+      "uri": "spec://ai.lev/fpf-eng-rmp/source/RMP-9#end"
+    }
+  ],
+  "suspects": [],
+  "warnings": []
+}
